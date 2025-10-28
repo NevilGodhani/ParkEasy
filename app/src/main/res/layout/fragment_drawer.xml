@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:backgroundTint="#F9F9F9"
+    android:background="@android:color/white"
+    tools:context=".DrawerFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!-- Profile Section using CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp"
+            android:background="@color/white"
+            android:id="@+id/btn_edit_profile">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/baseline_person_24" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="12dp">
+
+                    <TextView
+                        android:id="@+id/fullname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nevil Godhani"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/emaildrawer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nevilgodhani09@gmail.com"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_arrow_forward_24"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginStart="8dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!-- Menu Items -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="❓  Help"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableEnd="@drawable/baseline_arrow_forward_24"
+                android:padding="12dp" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="💼  Wallet"
+                android:textSize="16sp"
+                android:drawableEnd="@drawable/baseline_arrow_forward_24"
+                android:padding="12dp"
+                tools:ignore="UseCompatTextViewDrawableXml" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/booking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📅  My Bookings"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableEnd="@drawable/baseline_arrow_forward_24"
+                android:padding="12dp" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🌍  Language"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:drawableEnd="@drawable/baseline_arrow_forward_24"
+                android:padding="12dp" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/darker_gray" />
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🔚   Logout"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:drawableEnd="@drawable/baseline_arrow_forward_24"
+                android:padding="12dp" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@android:color/darker_gray" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:background="@color/white"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/addParking">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="81.77dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@color/light">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingStart="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:text="Add Your Own Parking Space"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="122.25dp"
+                    android:layout_height="81.75dp"
+                    android:src="@drawable/back"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginStart="8dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

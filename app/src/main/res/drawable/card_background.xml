@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="12dp"/>  <!-- Same as cardCornerRadius -->
+    <gradient
+        android:startColor="#FFFFFF"
+        android:endColor="#64DD17"
+        android:angle="270"/> <!-- Gradient effect -->
+</shape>

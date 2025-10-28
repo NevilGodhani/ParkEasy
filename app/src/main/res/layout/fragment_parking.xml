@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F9F9F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Parking Image -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="16dp"
+            app:cardElevation="5dp">
+
+            <ImageView
+                android:id="@+id/parking_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Parking Name -->
+        <TextView
+            android:id="@+id/parking_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parking Name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/main"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Parking Info Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parking Information"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/parking_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📍 Address: XYZ Street, City"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="#555"/>
+
+                <TextView
+                    android:id="@+id/parking_near"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📌 Near: ABC Location"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="14sp"
+                    android:textColor="#555"/>
+
+                <TextView
+                    android:id="@+id/parking_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📞 Contact: 1234567891"
+                    android:textSize="14sp"
+                    android:textColor="#555"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Parking Facilities -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="8dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parking Facilities"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/facility_charging"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚡ EV Charging Station"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="14sp"
+                    android:textColor="#555"/>
+
+                <TextView
+                    android:id="@+id/facility_air"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔧 Air Filling Machine"
+                    android:textSize="14sp"
+                    android:textColor="#555"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Parking Prices -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parking Prices"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/price2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🚗 4-Wheel: ₹200/h"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="14sp"
+                    android:textColor="#555"/>
+
+                <TextView
+                    android:id="@+id/price4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🏍️ 2-Wheel: ₹100/h"
+                    android:textSize="14sp"
+                    android:textColor="#555"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <!-- Book Parking Button -->
+            <Button
+                android:id="@+id/book_parking_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book Parking for Today"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_margin="16dp"
+                android:textColor="#FFFFFF"
+                android:padding="12dp"/>
+
+            <Button
+                android:id="@+id/close_parking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parking is Closed Now"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:backgroundTint="@color/red"
+                android:layout_margin="16dp"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                android:padding="12dp"/>
+
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <!-- Parking Image inside CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageCard"
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:background="#F9F9F9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/parkingImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Parking Name -->
+        <TextView
+            android:id="@+id/parkingName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parking Name"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/imageCard"
+            app:layout_constraintTop_toTopOf="@id/imageCard"
+            android:layout_marginStart="10dp"/>
+
+        <!-- Parking Address -->
+        <TextView
+            android:id="@+id/parkingAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Near Location"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            app:layout_constraintStart_toStartOf="@id/parkingName"
+            app:layout_constraintTop_toBottomOf="@id/parkingName"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Start Time -->
+        <TextView
+            android:id="@+id/startTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Time:"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/parkingName"
+            app:layout_constraintTop_toBottomOf="@id/parkingAddress"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:id="@+id/startTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08:00 AM"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/startTimeLabel"
+            app:layout_constraintTop_toTopOf="@id/startTimeLabel"
+            android:layout_marginStart="4dp"/>
+
+        <!-- End Time -->
+        <TextView
+            android:id="@+id/endTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Time:"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/parkingName"
+            app:layout_constraintTop_toBottomOf="@id/startTimeLabel"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/endTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:00 PM"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/endTimeLabel"
+            app:layout_constraintTop_toTopOf="@id/endTimeLabel"
+            android:layout_marginStart="4dp"/>
+
+        <!-- View Details Section -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/viewDetailsCard"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="18dp"
+            android:background="#F9F9F9"
+            app:cardElevation="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/endTimeLabel"
+            app:layout_constraintStart_toStartOf="@id/parkingName">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <TextView
+                    android:id="@+id/viewDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View details"
+                    android:textColor="@color/main"
+                    android:textSize="12sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/arrowIcon"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/baseline_arrow_forward_24"
+                    android:layout_marginStart="4dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

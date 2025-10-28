@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Area"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/area_filter_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/area_katargam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Katargam" />
+
+            <RadioButton
+                android:id="@+id/area_mota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mota Varachha" />
+
+            <RadioButton
+                android:id="@+id/area_varachha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Varachha" />
+
+            <RadioButton
+                android:id="@+id/area_nana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nana Varachha" />
+
+            <RadioButton
+                android:id="@+id/area_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Areas"
+                android:checked="true"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_apply_area_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply Filter" />
+    </LinearLayout>
+
+</LinearLayout>

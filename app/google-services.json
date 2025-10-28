@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "796111850067",
+    "firebase_url": "https://kukuadmin-f7617-default-rtdb.firebaseio.com",
+    "project_id": "kukuadmin-f7617",
+    "storage_bucket": "kukuadmin-f7617.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796111850067:android:a23c764c1e92fe53fad4a6",
+        "android_client_info": {
+          "package_name": "com.example.kuku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796111850067-8s72qpvgt7pmh5dq5qgod952d4p5r17m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kuku",
+            "certificate_hash": "5bbff2cadf9b5b70f2f3623df3393f0e39ac6586"
+          }
+        },
+        {
+          "client_id": "796111850067-d2jhtkomb32ul4rh467gpk5n1ebkq7m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjW3aq81B1x2VojQjAhrtaheyfKUXOcVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796111850067-d2jhtkomb32ul4rh467gpk5n1ebkq7m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796111850067:android:90738fc6443c27e4fad4a6",
+        "android_client_info": {
+          "package_name": "com.example.kukuadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796111850067-kfqqi1k9epjlgi4ifc70fvlnr2cauj9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kukuadmin",
+            "certificate_hash": "5bbff2cadf9b5b70f2f3623df3393f0e39ac6586"
+          }
+        },
+        {
+          "client_id": "796111850067-d2jhtkomb32ul4rh467gpk5n1ebkq7m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjW3aq81B1x2VojQjAhrtaheyfKUXOcVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796111850067-d2jhtkomb32ul4rh467gpk5n1ebkq7m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796111850067:android:d0bad5092d01d7c6fad4a6",
+        "android_client_info": {
+          "package_name": "com.example.parkeasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796111850067-ohs998e54fsob9vmfvkh77man0ra3tpc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkeasy",
+            "certificate_hash": "5bbff2cadf9b5b70f2f3623df3393f0e39ac6586"
+          }
+        },
+        {
+          "client_id": "796111850067-d2jhtkomb32ul4rh467gpk5n1ebkq7m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjW3aq81B1x2VojQjAhrtaheyfKUXOcVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796111850067-d2jhtkomb32ul4rh467gpk5n1ebkq7m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

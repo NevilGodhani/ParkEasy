@@ -1,0 +1,77 @@
+[versions]
+agp = "8.5.1"
+android = "10.10.0"
+androidVersion = "10.15.1"
+checkout = "1.6.26"
+firebaseAuth = "23.2.0"
+firebaseAuthVersion = "22.1.2"
+firebaseBom = "33.10.0"
+firebaseBomVersion = "32.7.0"
+firebaseDatabaseVersion = "20.2.2"
+firebaseFirestore = "24.4.2"
+firebaseStorage = "20.2.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+mapboxAndroidCore = "5.0.0"
+mapboxMapboxAndroidSdk = "9.5.0"
+mapsAndroid = "9.7.0"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+firebaseDatabase = "21.0.0"
+picasso = "2.8"
+playServicesAuth = "20.7.0"
+playServicesAuthVersion = "21.3.0"
+playServicesLocation = "20.0.0"
+playServicesLocationVersion = "21.0.1"
+playServicesMaps = "19.1.0"
+recyclerview = "1.2.1"
+kotlin = "1.8.22"
+navigationFragmentKtx = "2.8.8"
+navigationUiKtx = "2.8.8"
+
+[libraries]
+android = { module = "com.mapbox.maps:android", version.ref = "android" }
+android-v10151 = { module = "com.mapbox.maps:android", version.ref = "androidVersion" }
+checkout = { module = "com.razorpay:checkout", version.ref = "checkout" }
+com-google-firebase-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuth" }
+firebase-auth-v2212 = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuthVersion" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-bom-v3270 = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
+firebase-database-v2022 = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabaseVersion" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
+firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }
+google-firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+google-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+google-firebase-database = { module = "com.google.firebase:firebase-database" }
+google-firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+mapbox-android-core = { module = "com.mapbox.mapboxsdk:mapbox-android-core", version.ref = "mapboxAndroidCore" }
+mapbox-mapbox-android-sdk = { module = "com.mapbox.mapboxsdk:mapbox-android-sdk", version.ref = "mapboxMapboxAndroidSdk" }
+maps-android = { module = "com.mapbox.plugins:maps-android", version.ref = "mapsAndroid" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-auth-v2130 = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuthVersion" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+play-services-location-v2101 = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocationVersion" }
+play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMaps" }
+plugin-locationcomponent = { module = "com.mapbox.maps:plugin-locationcomponent", version.ref = "androidVersion" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
