@@ -81,3 +81,9 @@ This project was developed using **Java**, **XML**, and **Firebase** and serves 
 | 🧾 **Usage Pattern Analysis** | Analyze traffic and user demand trends | pandas, matplotlib |
 | 🤖 **Chatbot Assistant** | Guide users to nearby free spots via NLP | Dialogflow / TensorFlow Lite |
 | 🚘 **Image Recognition** | Detect vehicle type or number plate via camera input | TensorFlow Lite / OpenCV |
+
+## 📱 Screenshots
+
+| All 4 Panel |
+|--------------|
+| ![Park Easy](Screenshots/) |
