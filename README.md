@@ -86,4 +86,4 @@ This project was developed using **Java**, **XML**, and **Firebase** and serves 
 
 | All 4 Panel |
 |--------------|
-| ![Park Easy](Screenshots/) |
+| [Park Easy](Screenshots/) |
