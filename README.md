@@ -1,5 +1,9 @@
 # 🚗 Park Easy
 
+### 🧠 AI Extension (Future Work)
+This project will later include AI-based modules for:
+- Predicting parking demand (ParkEasy)
+
 ### 🧠 Smart Parking Management Android Application  
 Developed by **Nevil A. Godhani**, **Harsh J. Chopda**, and **Chintankumar M. Dobariya**  
 Guided by **Prof. Vishwa Desai**
